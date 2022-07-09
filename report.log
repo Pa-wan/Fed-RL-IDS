@@ -1,0 +1,140 @@
+2022-07-08 21:14:41,942 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:14:41,942 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 21:20:05,355 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:20:05,355 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 21:53:15,374 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:53:15,374 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 21:53:59,408 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:53:59,408 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 21:54:52,001 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:54:52,001 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 21:56:07,830 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:56:07,830 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 21:56:14,479 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:56:14,480 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 21:56:51,966 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:56:51,966 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 21:58:30,615 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:58:30,615 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 21:59:19,242 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 21:59:19,242 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:00:27,002 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:00:27,002 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:00:27,354 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:01:35,073 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:01:35,073 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:01:35,421 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:04:30,580 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:04:30,580 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:04:30,933 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:04:40,239 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:04:40,239 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:04:40,588 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:05:37,856 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:05:37,856 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:05:38,212 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:05:39,444 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:05:39,444 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:05:39,792 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:06:33,731 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:06:33,731 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:06:34,056 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:06:35,149 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:06:35,149 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:06:35,496 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:06:35,500 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:06:35,500 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:12:17,682 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:12:17,682 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:12:18,031 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:12:19,250 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:12:19,250 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:12:19,587 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:12:19,591 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:12:19,591 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:22:48,570 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:22:48,570 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:22:48,927 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:22:52,050 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:22:52,050 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:22:52,401 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:22:52,405 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:22:52,405 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:23:34,225 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:23:34,225 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:23:34,580 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:23:35,677 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:23:35,678 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:23:36,029 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:23:36,033 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:23:36,033 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:24:27,462 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:24:27,462 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:24:27,817 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:24:28,894 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:24:28,894 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:24:29,240 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:24:29,244 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:24:29,244 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:55:04,112 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:55:04,112 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:55:04,469 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:55:05,630 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:55:05,630 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:55:05,976 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:55:05,981 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:55:05,981 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:56:31,635 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:56:31,635 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:56:31,997 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:56:40,669 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:56:40,669 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:56:41,025 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:56:41,029 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:56:41,029 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:57:12,653 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:57:12,653 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:57:12,981 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:57:15,059 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:57:15,059 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:57:15,400 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:57:15,404 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:57:15,404 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:58:42,270 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:58:42,270 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:58:42,642 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:58:43,506 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 22:58:43,507 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 22:58:43,825 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 22:58:43,829 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 22:58:43,829 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 23:00:08,078 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 23:00:08,078 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 23:00:08,457 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 23:00:09,372 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 23:00:09,372 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 23:00:09,717 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 23:00:09,721 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 23:00:09,721 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 23:13:45,810 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -200.0, best pos: [0. 0. 0.]
+2022-07-08 23:13:56,996 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -200.0, best pos: [0. 0. 0.]
+2022-07-08 23:19:18,291 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 23:19:18,291 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 23:19:18,644 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 23:19:19,740 - numexpr.utils - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-07-08 23:19:19,741 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2022-07-08 23:19:20,089 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-08 23:19:20,093 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 23:19:20,093 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 23:33:14,181 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -200.0, best pos: [0. 0. 0.]
+2022-07-08 23:33:20,360 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -200.0, best pos: [0. 0. 0.]
+2022-07-08 23:33:28,574 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 23:33:28,574 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 23:47:35,911 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -200.0, best pos: [0. 0. 0.]
+2022-07-08 23:47:44,608 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -200.0, best pos: [0. 0. 0.]
+2022-07-08 23:47:52,952 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-08 23:47:52,953 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-09 00:02:17,158 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -200.0, best pos: [0. 0. 0.]
+2022-07-09 00:02:21,034 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -200.0, best pos: [0. 0. 0.]
+2022-07-09 00:02:29,504 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-09 00:02:29,504 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}

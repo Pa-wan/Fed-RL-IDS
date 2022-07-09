@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 from .file_system import sample_csv
 
 # CONSTANTS
-BASE_RELATIVE_DATA_PATH = "../..DataSets/NSL-KDD/Small_Splits/"
+BASE_RELATIVE_DATA_PATH = "../DataSets/NSL-KDD/Small_Splits/"
 SAMPLE_SIZE = 0.2
 RANDOM_SAMPLING_STATE = 200
 IP_PROTOCOL_COLUMN = 1
