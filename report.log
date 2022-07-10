@@ -138,3 +138,23 @@
 2022-07-09 00:02:21,034 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -200.0, best pos: [0. 0. 0.]
 2022-07-09 00:02:29,504 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
 2022-07-09 00:02:29,504 - pyswarms.single.global_best - INFO - Optimize for 20 iters with {'c1': 0.4, 'c2': 0.6, 'w': 0.4}
+2022-07-09 21:12:16,225 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:12:31,690 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:18:40,532 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:18:42,040 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:30:51,745 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:30:53,260 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:35:06,949 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:35:09,118 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:36:19,122 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:36:21,196 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:39:05,508 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:39:07,309 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:42:24,619 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:42:27,676 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:46:19,175 - flower - INFO - Disconnect and shut down
+2022-07-09 21:46:19,175 - flower - INFO - Disconnect and shut down
+2022-07-09 21:58:29,273 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 21:58:30,015 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 22:18:34,662 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)
+2022-07-09 22:18:36,369 - flower - INFO - Opened insecure gRPC connection (no certificates were passed)

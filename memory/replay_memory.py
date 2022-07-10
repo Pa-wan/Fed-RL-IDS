@@ -47,7 +47,7 @@ class ReplayBuffer():
         """
             Samples a batch of transitions from the memory buffer
         """
-        max_mem = self.mem_cntr % self.mem_size
+        max_mem = min(self.mem_cntr, self.mem_size)
         batch = np.random.choice(max_mem, batch_size, replace=False)
 
         states = self.state_memory[batch]

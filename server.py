@@ -15,7 +15,7 @@ strategy = fl.server.strategy.FedAvg(
 
 def main():
     fl.server.start_server(
-        config={"num_rounds": 10}, strategy=strategy,
+        config={"num_rounds": 100}, strategy=strategy,
     )
 
 

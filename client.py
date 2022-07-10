@@ -1,21 +1,20 @@
 import os
+import argparse
 
-import flwr as fl
-from client.pso_flower_client import pso_dqn_flower_client
 # this is needed to prevent a cudnn error on some GPU's
 os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
 # this reduces the amount of tensorflow logging messages to only errors.
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+import flwr as fl  # noqa E402
 
+from client.ddqn_flower_client import dqn_flower_client  # noqa E402
+from client.pso_flower_client import pso_dqn_flower_client  # noqa E402
 from agents.agent_initialiser import AgentInitialiser  # noqa: E402
 from agents.ddqn_agent import ddqn_agent   # noqa: E402
 from environ.nsl_kdd import nsl_kdd_env  # noqa: E402
 
 
-# import flwr as fl  # noqa: E402
-
 GLOBAL_REWARD = 1
-CLIENT_ID = 1
 
 
 def create_ddqn_initiliser(env):
@@ -38,19 +37,73 @@ def create_ddqn_initiliser(env):
     return initialiser
 
 
+def create_arg_parser():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--child_id",
+        type=int,
+        default=1,
+        help="The id of this client (1)"
+        )
+
+    parser.add_argument(
+        "--agent_type",
+        type=str,
+        default="ddqn",
+        help="The type of agent to use (ddqn, duelDQN)"
+        )
+
+    parser.add_argument(
+        "--flower_client_type",
+        type=str,
+        default="base",
+        help="The type of flower client to use (base, pso)"
+        )
+
+    return parser
+
+
+def create_enviroment():
+    env = nsl_kdd_env(GLOBAL_REWARD, child_id)
+    env.setup()
+    return env
+
+
+def get_client_type(env, agent):
+    if flower_client_type == "base":
+        client = dqn_flower_client(agent, env, child_id)
+    elif flower_client_type == "pso":
+        client = pso_dqn_flower_client(agent, env, child_id)
+    return client
+
+
+def get_agent_type(initialiser):
+    if agent_type == "ddqn":
+        agent = ddqn_agent(initialiser)
+    elif agent_type == "duelDQN":
+        raise NotImplementedError("duelDQN is not implemented yet")
+    return agent
+
+
 def main():
     print("Starting Client")
-    env = nsl_kdd_env(GLOBAL_REWARD, CLIENT_ID)
-    env.setup()
-    print([env.get_observation_space()])
-    initialiser = create_ddqn_initiliser(env)
-    agent = ddqn_agent(initialiser)
+    env = create_enviroment()
 
-    fl.client.start_numpy_client(
-        "[::]:8080",
-        client=pso_dqn_flower_client(agent, env)
-        )
+    initialiser = create_ddqn_initiliser(env)
+    agent = get_agent_type(initialiser)
+    client = get_client_type(env, agent)
+    # starts the actual learning process.
+    fl.client.start_numpy_client("[::]:8080", client=client)
 
 
 if __name__ == "__main__":
+
+    parser = create_arg_parser()
+
+    # parse the arguments
+    child_id = parser.child_id
+    agent_type = parser.agent_type
+    flower_client_type = parser.flower_client_type
+
     main()

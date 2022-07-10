@@ -36,7 +36,7 @@ class ddqn_agent():
             Get the weights of the Q neural network.
         """
         return self.q_eval.get_weights()
-    
+
     def set_weights(self, weights):
         """
             Set the weights of the Q neural network.
