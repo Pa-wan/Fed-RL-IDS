@@ -14,7 +14,7 @@ from agents.ddqn_agent import ddqn_agent   # noqa: E402
 from environ.nsl_kdd import nsl_kdd_env  # noqa: E402
 
 
-GLOBAL_REWARD = 1
+GLOBAL_REWARD = 10
 
 
 def create_ddqn_initiliser(env):
@@ -26,7 +26,7 @@ def create_ddqn_initiliser(env):
             epsilon=1.0,
             epsilon_dec=0.995,
             epsilon_min=0.01,
-            model_file="models/ddqn_model.h5",
+            model_file="history/models/ddqn_model.h5",
             replace_target=1000,
             batch_size=32,
             memory_size=10000,
@@ -83,6 +83,8 @@ def get_agent_type(initialiser):
         agent = ddqn_agent(initialiser)
     elif agent_type == "duelDQN":
         raise NotImplementedError("duelDQN is not implemented yet")
+    elif agent_type == "pso_ddqn":
+        raise NotImplementedError("pso_ddqn is not implemented yet")
     return agent
 
 
@@ -95,15 +97,21 @@ def main():
     client = get_client_type(env, agent)
     # starts the actual learning process.
     fl.client.start_numpy_client("[::]:8080", client=client)
+    client.plot_results()
+
+    try:
+        client.save_scores()
+    except Exception as e:
+        print("Write error ", e)
 
 
 if __name__ == "__main__":
 
     parser = create_arg_parser()
-
+    args = parser.parse_args()
     # parse the arguments
-    child_id = parser.child_id
-    agent_type = parser.agent_type
-    flower_client_type = parser.flower_client_type
+    child_id = args.child_id
+    agent_type = args.agent_type
+    flower_client_type = args.flower_client_type
 
     main()

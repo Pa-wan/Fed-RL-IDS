@@ -1,0 +1,9 @@
+# ignore Log files
+*.log
+
+ignore build directories
+.pytest_cache/
+history/
+Flower_Baseline/
+.vscode/
+*/__pycache__/

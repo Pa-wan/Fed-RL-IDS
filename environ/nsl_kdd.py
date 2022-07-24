@@ -84,14 +84,22 @@ class nsl_kdd_env:
 
     def step(self, action):
         """
-            Returns the next record and returns a reward for the given action..
+            Returns the next record and returns a reward for the given action.
         """
-
         raw = self.lookup_df.iloc[self.indexer, [CLASSIFICATION_COLUMN]].values
-        abnormal_record = str(raw[0]) == "normal"
+
+        is_normal_record = str(raw[0]) == "normal"
+
+        # kept for sanity testing only.
+        # print(
+        #     "raw ", raw,
+        #     " action ", bool(action),
+        #     " is_normal_record ", bool(is_normal_record)
+        #     )
 
         step_reward = (
-            self.reward if action is abnormal_record else -self.reward
+            self.reward if bool(action) == is_normal_record
+            else -self.reward
         )  # noqa: E501
 
         self.indexer += 1

@@ -119,3 +119,10 @@ class ddqn_agent():
             )
 
         return model
+
+    def save_model(self):
+        """
+            Save the Q neural network.
+        """
+        print("saving model file ", self.model_file)
+        self.q_eval.save(self.model_file, save_format='tf')
