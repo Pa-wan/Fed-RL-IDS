@@ -1,9 +1,12 @@
 # ignore Log files
 *.log
 
+# specific file types
+*.pyc
+
 ignore build directories
 .pytest_cache/
 history/
 Flower_Baseline/
 .vscode/
-*/__pycache__/
+*__pycache__*
